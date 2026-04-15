@@ -13,7 +13,7 @@ Analysis of African road infrastructure using SQL-derived metrics, including tot
 
 
 # Total Road Length by Country
-#  | Country       | Total_length_Country |
+| Country       | Total_length_Country |
 | ------------- | -------------------- |
 | Nigeria       | 806,013,298,754,054  |
 | South_Africa  | 796,285,484,321,252  |
@@ -120,6 +120,64 @@ Analysis of African road infrastructure using SQL-derived metrics, including tot
 | Gabon         | 1,855,334,816   |
 | Namibia       | 2,176,732,812   |
 | WestSahara    | 2,603,157,707   |
+
+
+
+# Total Roads by Country
+
+| Country       | Total_Roads_Country |
+| ------------- | ------------------- |
+| South_Africa  | 522,629             |
+| Nigeria       | 312,187             |
+| Egypt         | 236,178             |
+| Morocco       | 226,346             |
+| Algeria       | 193,939             |
+| Tunisia       | 192,702             |
+| Kenya         | 72,501              |
+| Ethiopia      | 67,078              |
+| Ghana         | 55,497              |
+| Zimbabwe      | 43,527              |
+| Angola        | 43,447              |
+| Libya         | 34,647              |
+| Uganda        | 33,244              |
+| Zambia        | 30,462              |
+| Sudan         | 29,087              |
+| IvoryCoast    | 27,878              |
+| CongoDR       | 25,413              |
+| Cameroon      | 20,210              |
+| Madagascar    | 19,665              |
+| Tanzania      | 19,225              |
+| Botswana      | 18,150              |
+| Senegal       | 17,733              |
+| Mozambique    | 16,891              |
+| Mali          | 16,392              |
+| Namibia       | 12,821              |
+| Niger         | 12,810              |
+| Malawi        | 9,292               |
+| BurkinaFaso   | 8,846               |
+| Rwanda        | 8,739               |
+| Congo         | 7,355               |
+| Guinea        | 6,642               |
+| WestSahara    | 6,483               |
+| Swaziland     | 6,240               |
+| Somalia       | 6,065               |
+| Togo          | 5,909               |
+| Lesotho       | 5,136               |
+| Equatorial    | 4,624               |
+| Gabon         | 4,622               |
+| Burundi       | 4,578               |
+| Benin         | 4,523               |
+| Mauritania    | 4,519               |
+| Eritrea       | 3,036               |
+| Djibouti      | 2,732               |
+| SierraLeone   | 2,661               |
+| SouthSudan    | 2,317               |
+| Chad          | 2,300               |
+| CentralAfrian | 1,391               |
+| Liberia       | 1,273               |
+| Gambia        | 1,070               |
+| GuineaBissau  | 537                 |
+
 
 
 # Total Unpaved Road Length by Country
@@ -306,17 +364,46 @@ Analysis of African road infrastructure using SQL-derived metrics, including tot
 
 | Metric      | Description                                 |
 | ----------- | ------------------------------------------- |
-| Total Roads | Total number of road segments across Africa |
-| % Paved     | Percentage of paved roads                   |
-| % Unpaved   | Percentage of unpaved roads                 |
+| Total Roads |  13,309,613                                 |
+| % Paved     |  18,12 %                                    |
+| % Unpaved   |  81,88 %                                    |
 
 
 # Top Infrastructure Countries
 
-| Analysis           | Description                                  |
-| ------------------ | -------------------------------------------- |
-| Top 10 Roads       | Countries with the highest number of roads   |
-| Top 10 Road Length | Countries with the largest total road length |
+This section identifies African countries with the most extensive road infrastructure based on road count and total road length.
+
+# Top 10 Countries by Total Roads
+// The countries with the highest number of road segments are:
+
+| Country      | Total_Roads_Country |
+| ------------ | ------------------- |
+| South_Africa | 522,629             |
+| Nigeria      | 312,187             |
+| Egypt        | 236,178             |
+| Morocco      | 226,346             |
+| Algeria      | 193,939             |
+| Tunisia      | 192,702             |
+| Kenya        | 72,501              |
+| Ethiopia     | 67,078              |
+| Ghana        | 55,497              |
+| Zimbabwe     | 43,527              |
+
+# Top 10 Countries by Total Road Length
+// TThe countries with the largest total road network length are:
+
+| Country      | Total_length_Country |
+| ------------ | -------------------- |
+| Nigeria      | 806,013,298,754,054  |
+| South_Africa | 796,285,484,321,252  |
+| Egypt        | 456,234,353,666,626  |
+| Morocco      | 435,774,665,897,645  |
+| Mali         | 394,003,361,114,699  |
+| Somalia      | 387,974,347,946,360  |
+| Algeria      | 380,304,619,587,810  |
+| Kenya        | 350,794,083,369,908  |
+| Tanzania     | 320,319,130,535,601  |
+| Ethiopia     | 317,200,133,514,304  |
 
 
 # Infrastructure Quality
