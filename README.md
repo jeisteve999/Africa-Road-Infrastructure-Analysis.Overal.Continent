@@ -412,13 +412,156 @@ This section identifies African countries with the most extensive road infrastru
 | Analysis      | Description                                      |
 | ------------- | ------------------------------------------------ |
 | Top Paved %   | Countries with highest percentage of paved roads |
+
+| Country      | Paved_Percentage |
+| ------------ | ---------------- |
+| Tunisia      | 56.78%           |
+| WestSahara   | 52.66%           |
+| Equatorial   | 38.77%           |
+| South_Africa | 36.37%           |
+| Algeria      | 36.05%           |
+| Morocco      | 34.83%           |
+| Djibouti     | 29.36%           |
+| Zimbabwe     | 25.49%           |
+| Nigeria      | 21.07%           |
+| Ethiopia     | 19.20%           |
+
+
 | Worst Paved % | Countries with lowest percentage of paved roads  |
+
+| Country       | Paved_Percentage |
+| ------------- | ---------------- |
+| Somalia       | 2.46%            |
+| Gambia        | 2.66%            |
+| CentralAfrian | 2.80%            |
+| Chad          | 2.86%            |
+| SouthSudan    | 3.17%            |
+| GuineaBissau  | 3.17%            |
+| Liberia       | 3.43%            |
+| Malawi        | 3.58%            |
+| Tanzania      | 4.03%            |
+| Benin         | 4.16%            |
+
+
+
+
 
 # Regional Analysis
 
-| Analysis                           | Description                                        |
-| ---------------------------------- | -------------------------------------------------- |
-| North Africa vs Sub-Saharan Africa | Comparative road infrastructure analysis by region |
+Regional Analysis — African Road Infrastructure
+
+Analysis of African road infrastructure using SQL-derived metrics, including total road length, paved and unpaved distribution, and road counts. This dataset enables comparison across countries, highlighting infrastructure gaps, development patterns, and regional disparities in transportation accessibility across Africa.
+
+North Africa
+
+Countries:
+Algeria, Egypt, Libya, Morocco, Tunisia, Sudan, West Sahara
+
+| Metric                 | Value                                                                                                                         |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| % Paved                | **41.89 %**                                                                                                                   |
+| Total Roads            | **913,799**                                                                                                                   |
+| Avg Road Length        | **904,672,471**                                                                                                               |
+| Infrastructure Quality | Higher paved infrastructure compared to continental average. Strong connectivity concentrated in coastal and urban corridors. |
+
+
+
+North Africa shows the best infrastructure quality in Africa, with higher paved road percentages and large total road networks. Countries like Egypt, Morocco, and Algeria dominate regional connectivity.
+
+West Africa
+
+Countries:
+Nigeria, Ghana, Senegal, Mali, Burkina Faso, Niger, Ivory Coast, Benin, Togo, Guinea, Guinea-Bissau, Liberia, Sierra Leone, Gambia, Mauritania
+
+| Metric                 | Value                                                      |
+| ---------------------- | ---------------------------------------------------------- |
+| % Paved                | **10.82 %**                                                |
+| Total Roads            | **525,821**                                                |
+| Avg Road Length        | **878,354,227**                                            |
+| Infrastructure Quality | Large road networks but heavily dominated by unpaved roads |
+
+
+
+West Africa has large but low-quality road infrastructure. Nigeria dominates road volume, but most networks remain unpaved, creating connectivity gaps in rural regions.
+
+East Africa
+
+Countries:
+Ethiopia, Kenya, Tanzania, Uganda, Rwanda, Burundi, Somalia, Eritrea, Djibouti, South Sudan, Madagascar, Malawi, Mozambique, Zambia, Zimbabwe
+
+| Metric                 | Value                                                |
+| ---------------------- | ---------------------------------------------------- |
+| % Paved                | **9.41 %**                                           |
+| Total Roads            | **357,742**                                          |
+| Avg Road Length        | **929,271,844**                                      |
+| Infrastructure Quality | Rapidly growing but still dominated by unpaved roads |
+
+
+East Africa shows rapid expansion but weak paving infrastructure. Kenya and Ethiopia are leading improvements, but Somalia and South Sudan pull regional quality downward.
+
+Central Africa
+
+Countries:
+Congo DR, Congo, Central African Republic, Cameroon, Gabon, Equatorial Guinea, Chad, Angola
+
+| Metric                 | Value                                                      |
+| ---------------------- | ---------------------------------------------------------- |
+| % Paved                | **13.76 %**                                                |
+| Total Roads            | **108,372**                                                |
+| Avg Road Length        | **1,128,412,713**                                          |
+| Infrastructure Quality | Low density but long road segments due to remote geography |
+
+
+Central Africa shows low road density but long average road segments. Infrastructure development is limited by geography, forests, and low population density.
+
+Southern Africa
+
+Countries:
+South Africa, Namibia, Botswana, Lesotho, Eswatini, Zambia, Zimbabwe, Mozambique, Angola
+
+| Metric                 | Value                                               |
+| ---------------------- | --------------------------------------------------- |
+| % Paved                | **24.63 %**                                         |
+| Total Roads            | **807,879**                                         |
+| Avg Road Length        | **879,604,182**                                     |
+| Infrastructure Quality | Best Sub-Saharan infrastructure led by South Africa |
+
+
+Southern Africa has the strongest Sub-Saharan infrastructure, driven primarily by South Africa. The region shows higher paved percentages and better connectivity.
+
+| Region          | % Paved | Infrastructure Quality |
+| --------------- | ------- | ---------------------- |
+| North Africa    | 41.89 % | Highest                |
+| Southern Africa | 24.63 % | Strong                 |
+| Central Africa  | 13.76 % | Medium-Low             |
+| West Africa     | 10.82 % | Low                    |
+| East Africa     | 9.41 %  | Lowest                 |
+
+
+# Analysis
+
+# Regional Infrastructure Analysis — Africa
+
+From the previous analysis, it can be deduced that North Africa has the strongest road infrastructure, with 41.89% of its roads paved, significantly above the continental average. This indicates more developed transportation networks and better regional connectivity, particularly in countries such as Egypt, Morocco, and Algeria.
+
+On the other hand, Southern Africa shows 24.63% paved roads. Although this region performs better than most of Sub-Saharan Africa, the paved road network still represents a limited portion of its vast territory. Infrastructure development is largely driven by South Africa, while other countries still face connectivity challenges.
+
+Finally, Central Africa, West Africa, and East Africa represent the most critical regions in terms of infrastructure development. These regions show low percentages of paved roads, which limits transportation efficiency, increases logistics costs, and reduces accessibility in rural areas.
+
+This information is valuable because increased investment in road infrastructure could significantly improve:
+
+Trade competitiveness
+Transportation efficiency
+Regional connectivity
+Economic growth
+Employment opportunities
+Import and export capacity
+Access to markets and services
+
+Improving road infrastructure across these regions would strengthen Africa’s position in global trade, enhance regional integration, and support long-term economic development across the continent.
+
+
+
 
 
 
